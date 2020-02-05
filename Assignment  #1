@@ -1,0 +1,52 @@
+/* Alison Brannon and Emma Guevara
+2/4/2020
+Assignment 1
+ */
+
+package com.company;
+import java.util.Scanner;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        //Question 1:
+        System.out.println ("*********      ***        *          *");
+        System.out.println ("*       *    *     *     ***        * *");
+        System.out.println ("*       *   *       *   *****      *   *");
+        System.out.println ("*       *.  *       *     *       *     *");
+        System.out.println ("*       *   *       *     *      *       *");
+        System.out.println ("*       *   *       *     *       *     *");
+        System.out.println ("*       *   *       *     *        *   *");
+        System.out.println ("*       *    *     *      *         * *");
+        System.out.println ("*********      ***        *          *");
+
+        //Question 2:
+        System.out.println("Enter an Integer.");
+        int a = 0;
+        int b = 0;
+        int c = 0;
+        c = a * b;
+        //This program performs a simple payroll action
+
+        //Question 3:
+        Scanner userInput = new Scanner (System.in);
+
+        System.out.println("Enter Integer One: ");
+        int one = userInput.nextInt();
+        System.out.println("Enter Integer Two: ");
+        int two = userInput.nextInt();
+
+        int sum = one + two;
+        int product = one * two;
+        int difference = one - two;
+        int quotient = one / two;
+
+        System.out.println("The sum is: " + sum);
+        System.out.println("The product is: " + product);
+        System.out.println("The difference is: " + difference);
+        System.out.println("The quotient is: " + quotient);
+
+    }
+}
