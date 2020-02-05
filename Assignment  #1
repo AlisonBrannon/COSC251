@@ -31,17 +31,24 @@ public class Main {
         //This program performs a simple payroll action
 
         //Question 3:
+        int one = 0;
+        int two = 0;
+        int sum = 0;
+        int product = 0;
+        int difference = 0;
+        int quotient = 0;
+
         Scanner userInput = new Scanner (System.in);
 
         System.out.println("Enter Integer One: ");
-        int one = userInput.nextInt();
+        one = userInput.nextInt();
         System.out.println("Enter Integer Two: ");
-        int two = userInput.nextInt();
+        two = userInput.nextInt();
 
-        int sum = one + two;
-        int product = one * two;
-        int difference = one - two;
-        int quotient = one / two;
+        sum = one + two;
+        product = one * two;
+        difference = one - two;
+        quotient = one / two;
 
         System.out.println("The sum is: " + sum);
         System.out.println("The product is: " + product);
